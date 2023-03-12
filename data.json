@@ -1,0 +1,171 @@
+{
+        "intents": [
+          {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "Hey",
+              "Der",
+              "There",
+              "yo","What's up","whats up","Sup","hm","Hm",
+              "Is anyone there?",
+              "Hello",
+              "Good Morning",
+              "Good Night",
+              "Good Evening", 
+              "Good Afternoon",
+              "I am",
+              "I'm",
+              "Good day"
+            ],
+            "responses": [
+              "Hello,\nI am Career Recommenation Bot here for your help .\nPlease List out your Skills :(like python , java , team-work,...) "
+            ]
+          },
+          {
+            "tag": "h1",
+            "patterns": ["How Are You?","How are you","how are you","how are","How have you been?","how you doing","how do you do","How’s it going?","Are you OK?","Alright, mate? "],
+            "responses": ["I am Fine , Thank You...!!!"]
+          },
+          
+          {
+            "tag": "DS",
+            "patterns": ["Data Science","data science","computer vision","cv","CV","Opencv", "Machine Learning","ml","ds","ai","machine learning","intelligence","deep learning","opencv", "Business Intelliegence","Artificial Intelligence","Data Mining","Deep Learning","Data Analytics","Big Data","NLP","R","PYTHON","Visualization","Pattern Recognition","Regonition","data","Pandas","Numpy","big mart","data science","ML","AI","DS","KNN","Kmean","Regression","prediction","DATA","numpy"],
+            "responses": ["It looks like , Data Science and Machine Learning is Your Field...!!!"
+              
+            ]
+          },
+          {
+            "tag": "Web",
+            "patterns": ["Website","web","website","web dev","flask","api","django","css","html","js","frontend","backend","full stack","stack ","data base","web deploy","bootstrap","Web Development","APIs","Web App","Flask","Django","CSS","HTML","Web","Java Script","JS","Frontend","Backend","Bootstrap","web Devoployment","Full Stack","HTTP","jQuery"],
+            "responses": ["It looks like , Web Developer is Your Field...!!!"]
+          },
+          {
+            "tag": "app",
+            "patterns": [
+              "Java","Android Studio","java","apps","iphone","ios","andrio","kotlin","swift","ios","buttons","phone","iphone","Swift","Xcode","Kotlin","Games","IOS","Android","Apps"
+      
+            ],
+            "responses": [
+              "It looks like ,App Developer is Your Field...!!!"
+            ]
+          },
+          {
+            "tag": "cyber",
+            "patterns": ["Cybernetics","safety","network","networking","blockchain","jetbrain","security","cyber","Cyber Network","Dark Web","Networking","IP Address","VPN","Firewall","Domain","Cloud Computing","Computing","Exploit","Malware","Virus","Randsom","SPY","Hacking","Browser","intenet","encrpytion","decryption","Blockchain","NFTs","Cypto currency","Protocol","Wifi","Internet","Monitoring"
+            ],
+            "responses": [
+              "It looks like ,Cbyer Security is Your Field...!!!"
+            ]
+          },
+          {
+            "tag": "Stw",
+            "patterns": ["Java","java","c","data base","system arc","Analytics","C","SQL","C##","C++","database","Dataset","System Architect","programming","Programming","System","Angile","Computer","Information","Design","DevOps","DBMS"],
+            "responses": ["It looks like , Software Engineering is Your Field...!!!"]
+          },
+          {
+            "tag": "DM",
+            "patterns": ["Marketing","Speaking","digital","market","public speaking","speech","confidence","presentating","media","insta","linkedin","twitter","Listen","Talk","Speech","Present","Sales","Product","SEO","Social Media","Socials","Trend","Content","Media","Market","Context","SEM","Industry","E-commerce","Rating","Conversation","Brand"],
+            "responses": ["It looks like , Digital Marketing is Your Field...!!!"]
+          },
+          {
+            "tag": "Rob",
+            "patterns": ["Robots","robot","automation","ai","robotic","sounds","machines","makers","mobility","Automation","Human Intelligence","Artificial Intelligence","Robotics","Mobility","Siri","Alexa","Google","Sensor","monitor","Manufacture","Monitoring","AMRs","Automated","Program"],
+            "responses": ["It looks like ,Robotics and Automation is Your Field...!!!"]
+          },
+          {
+            "tag": "edv",
+            "patterns": ["Entrepreneurship","new","money","easy","startup","Start Ups","Leadership","lead","Lead","Boss","Cheif","Profif","Business Intelliegence","Business","Venture","Self","Social","Company","Scalable","edventure","india","shark tank","business","hospitality","Owner"],
+            "responses": ["It looks like , Entrepreneurship is Your Field...!!!"]
+          },
+          {
+            "tag": "Auto",
+            "patterns": ["AutoCAD","MS","ms","Drawings","Objects","Basics","Ploting","Planning","Build","Design","Area"],
+            "responses": ["It looks like , AutoCAD is Your Field...!!!"]
+          },
+          {
+            "tag": "HR",
+            "patterns": ["Human","Interview","Team","Lead","Recruitment","Policies","Management","Talent","Applicant","Valuable","Recruitment","Engage","HR","Human Intelligence","Human Resource"],
+            "responses": ["It looks like , Human Resource is Your Field...!!!"]
+          },
+          {
+            "tag": "PM",
+            "patterns": ["Product","Monitoring","Product","Strategy","Tech","Develop","Guide","Goal","Analytics","Planning","Ploting","Degree"],
+            "responses": ["It looks like , Product Manager is Your Field...!!!"]
+          },
+          {
+            "tag": "Blogger",
+            "patterns": ["Writter","Traveller","Music","Nature","Place","Peace","Photographer","Picture","Movie","Films","Guitar","Calligraphy","Bold","Acting","Cinema"],
+            "responses": ["It looks like , Blogger is Your Field...!!!"]
+          },
+          {
+            "tag": "AR",
+            "patterns": ["AR","UI","UX","VR","MR","virtual","Virtual Reality","Mixed Reality","Augmented Reality","VR box","3D","Animation","Graphics","360","Haptics","Display"
+            ],
+            "responses": [
+              "It looks like , Virtual Reality and Augmented Reality is Your Field...!!!"
+            ]
+          },
+          {
+            "tag": "h2",
+            "patterns": ["Teaching","Teach","teach","communication", "listening", "collaboration", "adaptability", "empathy","patience"],
+            "responses": ["It looks like , Teaching is Your Field...!!!"]
+          },
+          {
+            "tag": "h3",
+            "patterns": ["Math"," Designing","communication","Business","Analytics","adaptability","Flexibility","Abstract","Corporate","Architect"],
+            "responses": ["It looks like , Architecture is Your Field...!!!"]
+          },
+          {
+            "tag": "h4",
+            "patterns": [" focus" ,"patient care","Time","Medicine","Investigative","Physician"],
+            "responses": ["It looks like , Physician is Your Field...!!!"]
+          },
+          {
+            "tag": "h5",
+            "patterns": ["Art","Self","determination","create","creative","design","Colour","Draw","Construct,","Make"],
+            "responses": ["It looks like , Artist is Your Field...!!!"]
+          },
+          {
+            "tag": "h6",
+            "patterns": ["Company","startup","business","money"," focus","living","lifestyle"],
+            "responses": ["It looks like , Entrepreneur is Your Field...!!!"]
+          },
+          {
+            "tag": "h7",
+            "patterns": ["Helping","Social","Acting","content","volunteer","devote","carry"],
+            "responses": ["It looks like , Social worker. is Your Field...!!!"]
+          },
+          {
+            "tag": "h8",
+            "patterns": ["Food","Blog","vlog","making","baking","talking","eating","frying"],
+            "responses": ["It looks like ,  Chef/Cook is Your Field...!!!"]
+          },
+          {
+            "tag": "h9",
+            "patterns": ["Teeth","Cleaning","washing","brushing"],
+            "responses": ["It looks like , Dentist is Your Field...!!!"]
+          },
+          {
+            "tag": "h",
+            "patterns": ["Flims","Movies","Entertainment","OTT","cinema","Acting","shoot","remake","Music","sounds"],
+            "responses": ["It looks like ,  Actor /Actressis Your Field...!!!"]
+          },
+          {
+            "tag": "m",
+            "patterns": ["Aeroplane","plane","air","seat","laggage","travel","visting","moving","sky","limitless"],
+            "responses": ["It looks like ,  Airlines is Your Field...!!!"]
+          },
+          {
+            "tag": "n",
+            "patterns": ["Author","peot","peom","Writter","write","reader","books","novel","love","genre","reel","real","live","speech"],
+            "responses": ["It looks like ,  Author is Your Field...!!!"]
+          },
+          {
+            "tag": "s",
+            "patterns": ["study","Helping","lead","clinic","exam","test","history-taking", "physical examination", "clinical investigations", "using diagnostic reasoning", "procedural perfection", "effective communication", "team work", "professionalism"],
+            "responses": ["It looks like ,  Medical is Your Field...!!!"]
+          }
+          
+        ]
+      }
